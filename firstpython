@@ -1,0 +1,11 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+#sklearn 라이브러리에서 기본 제공하는 손글씨 숫자 데이터셋
+from sklearn.datasets import load_digits
+#훈련 데이터, 테스트 데이터를 나눠주는 기능
+from sklearn.model_selection import train_test_split
+#로지스틱회귀 기능 사용
+from sklearn.linear_model import LogisticRegression
+#정확도를 측정하기 위한 기능
+from sklearn.metrics import accuracy_score
